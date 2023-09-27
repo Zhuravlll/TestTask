@@ -9,7 +9,7 @@ public class App {
         this.scanner = new Scanner(System.in);
     }
 
-    public void StartApp() {
+    public void startApp() {
         int tempElement;
         System.out.println("Please enter amount of elements in array");
         int amountOfElements = scanner.nextInt();
